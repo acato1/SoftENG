@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package uk.co.cogitolearning.cogpar;
+//package uk.co.cogitolearning.cogpar;
 
 import java.util.LinkedList;
 import java.util.regex.Matcher;

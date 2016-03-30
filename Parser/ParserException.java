@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package uk.co.cogitolearning.cogpar;
+//package uk.co.cogitolearning.cogpar;
 
 /**
  * A simple subclass of RuntimeException that indicates errors when trying to

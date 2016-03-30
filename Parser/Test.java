@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package uk.co.cogitolearning.cogpar;
+//package uk.co.cogitolearning.cogpar;
 
 /**
  * Test the Parser

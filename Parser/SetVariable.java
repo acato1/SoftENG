@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package uk.co.cogitolearning.cogpar;
+//package uk.co.cogitolearning.cogpar;
 
 /**
  * A visitor that sets a variable with a specific name to a given value
