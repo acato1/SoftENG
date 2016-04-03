@@ -8,6 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class TSC extends AppCompatActivity {
 
@@ -27,6 +31,42 @@ public class TSC extends AppCompatActivity {
             }
         });
     }
+
+
+   ArrayList <String> arrayList = new ArrayList<String>();
+    String string1 = "";
+    String string2 ="";
+
+    public void OnClick1 (View v) {
+        TextView textView = (TextView) findViewById(R.id.textView);
+
+        Button button = (Button) v;
+
+        string1 = (String) button.getText().toString();
+
+        //if (!string1.contains("+") not finished
+
+        Parser parser = new Parser();
+        try
+        {
+            ExpressionNode expr = parser.parse(string1);
+            expr.accept(new SetVariable("pi", Math.PI));
+            System.out.println("The value of the expression is "+expr.getValue());
+
+        }
+        catch (ParserException e)
+        {
+            System.out.println(e.getMessage());
+        }
+        catch (EvaluationException e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

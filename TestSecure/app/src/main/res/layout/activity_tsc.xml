@@ -21,7 +21,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_tsc" />
+    <!--<include layout="@layout/content_tsc" />-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -32,3 +32,4 @@
         android:src="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>
+
