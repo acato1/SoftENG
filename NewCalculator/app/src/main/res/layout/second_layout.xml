@@ -11,15 +11,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/enter_name_text_view"/>
+
 
         <EditText
-            android:layout_width="185dp"
+            android:id="@+id/users_name_edit_text"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:id="@+id/users_name_edit_text"/>
+            android:text="@+id/users_name_edit_text"
+            />
 
     </LinearLayout>
 
@@ -127,14 +126,14 @@
             android:layout_height="wrap_content"
             android:text="@string/btnParenR"
             android:id="@+id/btnParenR"
-            android:onClick="onParenR"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnParenL"
             android:id="@+id/btnParenL"
-            android:onClick="onParenL"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="wrap_content"
@@ -161,28 +160,28 @@
             android:layout_height="60dp"
             android:text="@string/btn7"
             android:id="@+id/btn7"
-            android:onClick="on7"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:text="@string/btn8"
             android:id="@+id/btn8"
-            android:onClick="on8"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btn9"
             android:id="@+id/btn9"
-            android:onClick="on9"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btnTimes"
             android:id="@+id/btnTimes"
-            android:onClick="onTimes"
+            android:onClick="onClick"
             />
     </LinearLayout>
 
@@ -202,28 +201,28 @@
             android:layout_height="60dp"
             android:text="@string/btn4"
             android:id="@+id/btn4"
-            android:onClick="on4"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btn5"
             android:id="@+id/btn5"
-            android:onClick="on5"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btn6"
             android:id="@+id/btn6"
-            android:onClick="on6"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btnMinus"
             android:id="@+id/btnMinus"
-            android:onClick="onMinus"
+            android:onClick="onClick"
             />
     </LinearLayout>
 
@@ -243,28 +242,28 @@
         android:layout_height="60dp"
         android:text="@string/btn1"
         android:id="@+id/btn1"
-        android:onClick="on1"
+        android:onClick="onClick"
         />
     <Button
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:text="@string/btn2"
         android:id="@+id/btn2"
-        android:onClick="on2"
+        android:onClick="onClick"
         />
     <Button
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:text="@string/btn3"
         android:id="@+id/btn3"
-        android:onClick="on3"
+        android:onClick="onClick"
         />
     <Button
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:text="@string/btnPlus"
         android:id="@+id/btnPlus"
-        android:onClick="onPlus"
+        android:onClick="onClick"
         />
 </LinearLayout>
 
@@ -278,28 +277,28 @@
             android:layout_height="60dp"
             android:text="@string/btnComma"
             android:id="@+id/btnComma"
-            android:onClick="onComma"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btn0"
             android:id="@+id/btn0"
-            android:onClick="on0"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btnPeriod"
             android:id="@+id/btnPeriod"
-            android:onClick="onPeriod"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="@string/btnNeg"
             android:id="@+id/btnNeg"
-            android:onClick="onNeg"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"

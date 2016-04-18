@@ -5,10 +5,16 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class SecondScreen extends Activity{
+
+    String total ="";
+    double v1, v2;
+    String sign = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +34,14 @@ public class SecondScreen extends Activity{
                 findViewById(R.id.calling_activity_info_text_view);
 
         callingActivityMessage.append(" " + previousActivity);
+    }
+
+    public void onClick (View v) {
+        Button button = (Button) v;
+        String str = button.getText().toString();
+        total+=str;
+        EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
+        edit.setText(total);
     }
 
     public void onSendUsersName(View view) {

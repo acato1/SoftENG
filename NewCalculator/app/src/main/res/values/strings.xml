@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">NewCalculator</string>
     <string name="users_name_sent_back">users_name_sent_back</string>
-    <string name="get_the_name_text_view">get_the_name_text_view</string>
-    <string name="enter_name_text_view">enter_name_text_view</string>
+    <string name="get_the_name_text_view">get the name</string>
+    <string name="enter_name_text_view">enter name</string>
     <string name="calling_activity_message">calling_activity_message</string>
+    <string name="numfield">just so I can see it</string>
 
     <!-- Calc Buttons -->
     <string name="btn0">0</string>
