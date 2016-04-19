@@ -164,7 +164,7 @@
             />
         <Button
             android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:text="@string/btn8"
             android:id="@+id/btn8"
             android:onClick="onClick"
