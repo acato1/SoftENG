@@ -235,7 +235,7 @@
         android:layout_height="60dp"
         android:text="@string/btnDel"
         android:id="@+id/btnDel"
-        android:onClick="ondel"
+        android:onClick="onDel"
         />
     <Button
         android:layout_width="70dp"

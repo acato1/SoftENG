@@ -43,6 +43,33 @@ public class SecondScreen extends Activity{
         EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
         edit.setText(total);
     }
+    public void onEnter(View v){
+        Parser parser = new Parser();
+        try
+        {
+            ExpressionNode expr = parser.parse(total);
+            expr.accept(new SetVariable("pi", Math.PI));
+            //System.out.println("The value of the expression is "+expr.getValue());
+
+        }
+        catch (ParserException e)
+        {
+            //System.out.println(e.getMessage());
+        }
+        catch (EvaluationException e)
+        {
+            //System.out.println(e.getMessage());
+        }
+    }
+    public void onDel(View v){
+        //Button button = (Button) v;
+        //String str = button.getText().toString();
+        if (total.length() > 0) {
+            total = total.substring(0, total.length() - 1);
+            EditText edit = (EditText) findViewById(R.id.users_name_edit_text);
+            edit.setText(total);
+        }
+    }
 
     public void onSendUsersName(View view) {
 
