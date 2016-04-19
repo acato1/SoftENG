@@ -14,6 +14,7 @@ public class SecondScreen extends Activity{
     String total ="";
     double v1, v2;
     String sign = "";
+    String answer = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +50,10 @@ public class SecondScreen extends Activity{
         {
             ExpressionNode expr = parser.parse(total);
             expr.accept(new SetVariable("pi", Math.PI));
-            //System.out.println("The value of the expression is "+expr.getValue());
+            answer = Double.toString(expr.getValue());
+            EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
+            edit.setText(answer);
+            total = "";
 
         }
         catch (ParserException e)
