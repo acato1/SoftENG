@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:text="@string/btnDiv"
             android:id="@+id/btnDiv"
-            android:onClick="onDiv"
+            android:onClick="onClick"
             />
     </LinearLayout>
 
@@ -179,7 +179,7 @@
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
-            android:text="@string/btnTimes"
+            android:text="*"
             android:id="@+id/btnTimes"
             android:onClick="onClick"
             />
@@ -194,7 +194,7 @@
             android:layout_height="60dp"
             android:text="@string/btnCarrot"
             android:id="@+id/btn"
-            android:onClick="onCarrot"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="70dp"
