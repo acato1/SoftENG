@@ -296,7 +296,7 @@
         <Button
             android:layout_width="70dp"
             android:layout_height="60dp"
-            android:text="@string/btnNeg"
+            android:text="-"
             android:id="@+id/btnNeg"
             android:onClick="onClick"
             />

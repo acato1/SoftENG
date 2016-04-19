@@ -53,23 +53,23 @@ public class SecondScreen extends Activity{
             answer = Double.toString(expr.getValue());
             EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
             edit.setText(answer);
-            total = "";
 
         }
         catch (ParserException e)
         {
             //System.out.println(e.getMessage());
-            /*total = "ERROR";
+            answer = "ERROR";
             EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
-            edit.setText(total);*/
+            edit.setText(answer);
         }
         catch (EvaluationException e)
         {
             //System.out.println(e.getMessage());
-            /*total = "ERROR";
+            answer = "ERROR";
             EditText edit = (EditText)findViewById(R.id.users_name_edit_text);
-            edit.setText(total);*/
+            edit.setText(answer);
         }
+        total = "";
     }
     public void onDel(View v){
         //Button button = (Button) v;
