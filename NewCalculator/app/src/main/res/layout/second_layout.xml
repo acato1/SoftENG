@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+ <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -15,6 +15,7 @@
 
         <EditText
             android:id="@+id/users_name_edit_text"
+            android:windowSoftInputMode="stateHidden"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:text="@+id/users_name_edit_text"
@@ -49,9 +50,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btnAlpha"
-            android:id="@+id/btnAlpha"
-            android:onClick="onAlpha"
+            android:text="@string/btnProb"
+            android:id="@+id/btnProb"
+            android:onClick="onProb"
             />
         <Button
             android:layout_width="wrap_content"
@@ -63,9 +64,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btnStat"
-            android:id="@+id/btnStat"
-            android:onClick="onStat"
+            android:text="@string/btnPer"
+            android:id="@+id/btnPer"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="wrap_content"

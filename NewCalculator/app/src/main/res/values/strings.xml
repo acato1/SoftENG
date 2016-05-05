@@ -35,11 +35,31 @@
     <string name="btnCos">cos</string>
     <string name="btnSin">sin</string>
     <string name="btnNeg1">x^-1</string>
-    <string name="btnAlpha">alpha</string>
+    <string name="btnProb">alpha</string>
     <string name="btnMath">math</string>
-    <string name="btnStat">stat</string>
+    <string name="btnPer">per</string>
     <string name="btnClear">clear</string>
     <string name="title_activity_login">Sign in</string>
+
+    <!--Strings Related to Math-->
+    <string name="btnLCD">lcd</string>
+    <string name="btnGCD">gdc</string>
+    <string name="btnCube">^3</string>
+    <string name="btnCubeRT">CubeRoot</string>
+    <string name="btnABS">abs</string>
+    <string name="btnRound">round</string>
+    <string name="btniPart">iPart</string>
+    <string name="btnfPart">fPart</string>
+    <string name="btnMin">min</string>
+    <string name="btnMax">max</string>
+    <string name="btnMin">min</string>
+
+    <!-- Strings Related to Prob-->
+    <string name="btnnPr">nPr</string>
+    <string name="btnnCr">nCr</string>
+    <string name="btnEx">!</string>
+    <string name="btnRand">rand</string>
+    <string name="btnRandInt">randint</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
